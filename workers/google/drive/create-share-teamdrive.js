@@ -1,9 +1,9 @@
 var authConfig = {
   version: "1.0.1-fix1",
   dailyLimit: true, // 是否限制每一个邮箱每天只能提交一次请求
-  client_id: "",
-  client_secret: "",
-  refresh_token: "", // 授权 token
+  client_id: "202264815644.apps.googleusercontent.com",
+  client_secret: "X4Z3ca8xfWDb1Voo-F9a7ZxJ",
+  refresh_token: "1//06KMfbdgY6diiCgYIARAAGAYSNwF-L9IrINKt1BsG4qaM2G1F9RINRE5w8sc0XfKKGw_MU8oQWjTtsp9zxdORB0E0sVeKb2Wuaxg", // 授权 token
   domain: "", // 面页中显示本站团队盘域, 可不填
   // 黑名单, 免费版没有数据库, 一个可行思路是从自己服务器上获取, 可自行实现
   black_list: ["example@gmail.com"]
